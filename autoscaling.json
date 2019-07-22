@@ -1,0 +1,14 @@
+[
+  {
+    "ParameterKey": "KeyName",
+    "ParameterValue": "mykey"
+  },
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t2.micro"
+  },
+  {
+    "ParameterKey": "OperatorEMail",
+    "ParameterValue": "ccl.ashfaqbd@yahoo.com"
+  }
+] 
