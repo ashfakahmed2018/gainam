@@ -1,0 +1,36 @@
+Type: AWS::OpsWorks::Stack
+Properties: 
+  AgentVersion: String
+  Attributes: 
+    Key : Value
+  ChefConfiguration: 
+    ChefConfiguration
+  CloneAppIds: 
+    - String
+  ClonePermissions: Boolean
+  ConfigurationManager: 
+    StackConfigurationManager
+  CustomCookbooksSource: 
+    Source
+  CustomJson: 
+    Json
+  DefaultAvailabilityZone: String
+  DefaultInstanceProfileArn: String
+  DefaultOs: String
+  DefaultRootDeviceType: String
+  DefaultSshKeyName: String
+  DefaultSubnetId: String
+  EcsClusterArn: String
+  ElasticIps: 
+    - ElasticIp
+  HostnameTheme: String
+  Name: String
+  RdsDbInstances: 
+    - RdsDbInstance
+  ServiceRoleArn: String
+  SourceStackId: String
+  Tags: 
+    - Tag
+  UseCustomCookbooks: Boolean
+  UseOpsworksSecurityGroups: Boolean
+  VpcId: String
